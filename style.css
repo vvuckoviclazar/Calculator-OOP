@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.calculator {
+  margin: 150rem auto;
+  background-color: rgb(145, 145, 145);
+  padding: 17rem;
+  border-radius: 10rem;
+}
+
+.resultDiv {
+  background-color: white;
+  margin-bottom: 13rem;
+  padding-right: 10rem;
+  padding-top: 7rem;
+}
+
+.buttonDiv {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  margin-bottom: 10rem;
+}
+
+.clear,
+.delete {
+  font-size: 33rem;
+  padding: 20rem 30rem 20rem 30rem;
+  border-radius: 5rem;
+  border: 1rem solid;
+}
+
+.clear {
+  background-color: rgb(100, 211, 183);
+}
+
+.delete {
+  background-color: rgb(241, 62, 62);
+}
+
+.clear:hover {
+  background-color: rgb(64, 181, 152);
+}
+
+.delete:hover {
+  background-color: rgb(213, 30, 30);
+}
+
+.resultDiv {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+
+.resultUp {
+  font-size: 35rem;
+}
+
+.resultDown {
+  font-size: 52rem;
+}
+
+.gridDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8rem;
+}
+
+.value {
+  font-size: 45rem;
+  border-radius: 5rem;
+  border: 1rem solid;
+  font-weight: 300;
+  padding: 10rem;
+  background-color: rgb(247, 247, 247);
+  color: rgb(63, 63, 63);
+}
+
+.value:hover {
+  background-color: rgb(231, 231, 231);
+}
