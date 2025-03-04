@@ -67,10 +67,12 @@ body {
 
 .resultUp {
   font-size: 35rem;
+  height: 40rem;
 }
 
 .resultDown {
   font-size: 52rem;
+  height: 60rem;
 }
 
 .gridDiv {
